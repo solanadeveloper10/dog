@@ -143,15 +143,19 @@ const Banner: React.FC = () => {
           <NeonButton
             color='rgb(175, 255, 18)'
             glowColor='rgb(175, 255, 18)'
-            onClick={() => navigator.clipboard.writeText("contract address")}
+            onClick={() =>
+              navigator.clipboard.writeText(
+                "EsSMbYKF7ct1nJ2BZsdGzHxUe9Ar9BpKZr81CEDLpump address"
+              )
+            }
           >
-            CA: 6bq...t4pump
+            CA: EsSM...DLpump
           </NeonButton>
           <NeonButton
             color='rgb(175, 255, 18)'
             glowColor='rgb(175, 255, 18)'
             fullWidth={isMobile}
-            href='https://x.com/dogm_token'
+            href='https://swap.pump.fun/?input=So11111111111111111111111111111111111111112&output=EsSMbYKF7ct1nJ2BZsdGzHxUe9Ar9BpKZr81CEDLpump'
           >
             Buy
           </NeonButton>
@@ -162,7 +166,7 @@ const Banner: React.FC = () => {
         color='#24A1DE'
         glowColor='#24A1DE'
         fullWidth={isMobile}
-        href='https://t.me/dogm_token'
+        href='https://t.me/the_dog_cto'
       >
         Telegram
       </NeonButton>
@@ -170,7 +174,7 @@ const Banner: React.FC = () => {
         color='rgb(22, 52, 201)'
         glowColor='rgb(22, 52, 201)'
         fullWidth={isMobile}
-        href='https://x.com/dogm_token'
+        href='https://x.com/the_dog_cto'
       >
         Twitter
       </NeonButton>
@@ -178,7 +182,7 @@ const Banner: React.FC = () => {
         color='#24A1DE'
         glowColor='#24A1DE'
         fullWidth={isMobile}
-        href='https://x.com/dogm_token'
+        href='https://www.dextools.io/app/en/solana/pair-explorer/CKgAwc8TAeAha4rJXcizEzZBuTD9L3bGPDpYpFqjBjY7?t=1749590331947'
       >
         Dextools
       </NeonButton>
@@ -186,7 +190,7 @@ const Banner: React.FC = () => {
         color='#ba0da3'
         glowColor='#ba0da3'
         fullWidth={isMobile}
-        href='https://x.com/dogm_token'
+        href='https://dexscreener.com/solana/EsSMbYKF7ct1nJ2BZsdGzHxUe9Ar9BpKZr81CEDLpump'
       >
         Dexscreener
       </NeonButton>
@@ -250,10 +254,12 @@ const Banner: React.FC = () => {
                 color='rgb(175, 255, 18)'
                 glowColor='rgb(175, 255, 18)'
                 onClick={() =>
-                  navigator.clipboard.writeText("contract address")
+                  navigator.clipboard.writeText(
+                    "EsSMbYKF7ct1nJ2BZsdGzHxUe9Ar9BpKZr81CEDLpump address"
+                  )
                 }
               >
-                CA: 6bq8kCaBGPiqjpwV2dACjT4S7aaynA5ZoQ61U3t4pump
+                CA: EsSMbYKF7ct1nJ2BZsdGzHxUe9Ar9BpKZr81CEDLpump
               </NeonButton>
               <NeonButton
                 color='rgb(175, 255, 18)'
@@ -303,6 +309,7 @@ const Banner: React.FC = () => {
               padding: "4rem 1rem",
               gap: "1rem",
               zIndex: 15,
+              overflowY: "auto",
             }}
           >
             <VideoControls isMobile />
